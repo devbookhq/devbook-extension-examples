@@ -17,7 +17,7 @@ const extensionEventHandlers: ExtensionEventHandlers = {
     ];
     return { results };
 
-    // You can fetch your extension data from https://api.usedevbook.com/extension/:yourExtensionID/entry/query.
+    // You can fetch your extension data from https://api.usedevbook.com/v1/extension/:yourExtensionID/entry/query.
     // You can use our exported predefined functions for that:
 
     // const results = await extensionEndpoints.searchExtensionData(data.query, {
