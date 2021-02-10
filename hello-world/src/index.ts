@@ -4,6 +4,7 @@ import {
 } from '@devbookhq/extension';
 
 const extensionEventHandlers: ExtensionEventHandlers = {
+  // This function will be called every time user changes their query in the Devbook search input.
   onDidQueryChange: async (data) => {
     // Mock example not fetching any data from the extension data.
     const results = [
