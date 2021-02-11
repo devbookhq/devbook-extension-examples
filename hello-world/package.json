@@ -1,6 +1,10 @@
 {
   "name": "hello-world",
-  "author": "tomas@usedevbook.com",
+  "author": {
+    "name": "FoundryLabs, Inc.",
+    "email": "hello@usedevbook.com",
+    "url": "https://usedevbook.com"
+  },
   "version": "0.0.1",
   "main": "lib/index.js",
   "scripts": {
@@ -12,6 +16,6 @@
     "typescript": "^4.1.3"
   },
   "dependencies": {
-    "@devbookhq/extension": "0.0.12"
+    "@devbookhq/extension": "0.0.16"
   }
 }
