@@ -16,6 +16,6 @@
     "typescript": "^4.1.3"
   },
   "dependencies": {
-    "@devbookhq/extension": "0.0.16"
+    "@devbookhq/extension": "0.0.17"
   }
 }
